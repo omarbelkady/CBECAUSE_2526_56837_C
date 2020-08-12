@@ -6,3 +6,7 @@ I- gcc nameOfFile.c -o NameYouWishToGiveIt
 
 
 II- ./NameYouWishToGiveIt
+
+## DataType Insertion
+A- %s string insertion
+B- %d number insertion
