@@ -9,4 +9,5 @@ II- ./NameYouWishToGiveIt
 
 ## DataType Insertion
 A- %s string insertion
+
 B- %d number insertion
