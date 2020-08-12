@@ -11,3 +11,5 @@ II- ./NameYouWishToGiveIt
 A- %s string insertion
 
 B- %d number insertion
+
+C- %c character insertion
