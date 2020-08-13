@@ -25,4 +25,17 @@ int main()
 	printf("\n\n\nHOW TO DEREFENCE: \n");
 	printf("I will now dereference *ptr_funnyNumber var: %f",*ptr_funnyNumber);
 	return 0;
+
+	printf("<=========HOW TO DEREFRENCE IN C EX2=======>\n");
+	int aVar = 25;
+	int *ptrOfaVar= &aVar;
+
+	printf("The dereference of ptrOfaVar: %d",*&aVar);
+
+	//More Crazier
+	/*	int *ptrOfaVar=&aVar
+	 *	printf("The (reference)derefence of ptrOfaVar: %d", &*&aVar);
+	 *	To Dereference one more time
+	 *	printf("The dereference of reference of the dereference of the ptr: %d",*&*&aVar);
+	*/
 }
