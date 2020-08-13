@@ -9,6 +9,7 @@ int main(){
 		printf("%c",whatHeLoves[i]);
 		i++;
 	}
+	char whatHeActuallyLoves[
 
 	return 0;
 }
